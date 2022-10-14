@@ -12,9 +12,6 @@ public class ValidatePin {
     	
     	//Prompt the user to enter the PIN
     	int guess=in.nextInt();
-    		
-    	
-    	
     	//Using a 'while' loop perform the steps
     		// -Compare the user-entered PIN with the already declared PIN
     		//If the entered PIN is no the same, prompt user to enter the PIN again
@@ -23,8 +20,6 @@ public class ValidatePin {
     		System.out.println("You entered the wrong pin");
     		guess=in.nextInt();
     	}
-    		
-    	
     	//Print a message confirming that the correct PIN has been entered and that the user now has access to their account
     	System.out.println("You have entered the correct PIN number. You have now been granted access to your account");
     		
